@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Generate FIFA World Cup 2026 .ics calendar files in multiple languages."""
+"""Generate FIFA World Cup 2026 .ics calendar files — all matches + per-team."""
 
 import json
 import hashlib
 import re
+import unicodedata
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -97,6 +98,38 @@ def fetch_data(url: str) -> dict:
     """Fetch JSON data from a URL."""
     with urllib.request.urlopen(url, timeout=30) as response:
         return json.load(response)
+
+
+def slugify(name: str) -> str:
+    """Convert a team name to a URL-safe slug."""
+    s = unicodedata.normalize("NFKD", name).encode("ASCII", "ignore").decode("ASCII")
+    s = re.sub(r"[^\w\s-]", "", s).strip().lower()
+    s = re.sub(r"[-\s]+", "-", s)
+    return s
+
+
+def extract_teams(matches: list[dict]) -> dict[str, str]:
+    """Extract real team names and return {name: slug} mapping."""
+    teams = set()
+    for m in matches:
+        for key in ("team1", "team2"):
+            t = m.get(key, "")
+            if not t:
+                continue
+            # Skip placeholders like W74, L101, 1A, 2B, 3A/B/C, etc.
+            if re.match(r"^[WL]\d+$", t):
+                continue
+            if re.match(r"^\d[A-Z]$", t):
+                continue
+            if "/" in t:
+                continue
+            teams.add(t)
+    return {t: slugify(t) for t in sorted(teams)}
+
+
+def filter_matches_for_team(matches: list[dict], team: str) -> list[dict]:
+    """Return only matches where the given team plays."""
+    return [m for m in matches if m.get("team1") == team or m.get("team2") == team]
 
 
 def parse_utc_offset(tz_str: str):
@@ -236,7 +269,13 @@ def create_event(match: dict, lang: str, state: dict) -> Event:
     return event
 
 
-def generate_calendar(matches: list[dict], lang: str, state: dict) -> Calendar:
+def generate_calendar(
+    matches: list[dict],
+    lang: str,
+    state: dict,
+    calendar_name: str | None = None,
+    calendar_desc: str | None = None,
+) -> Calendar:
     """Generate a complete Calendar for a given language."""
     t = LANGUAGES[lang]
 
@@ -245,8 +284,8 @@ def generate_calendar(matches: list[dict], lang: str, state: dict) -> Calendar:
     cal.add("version", "2.0")
     cal.add("method", "PUBLISH")
     cal.add("calscale", "GREGORIAN")
-    cal.add("x-wr-calname", t["calendar_name"])
-    cal.add("x-wr-caldesc", t["calendar_desc"])
+    cal.add("x-wr-calname", calendar_name or t["calendar_name"])
+    cal.add("x-wr-caldesc", calendar_desc or t["calendar_desc"])
     cal.add("x-wr-timezone", "UTC")
 
     for match in matches:
@@ -257,19 +296,29 @@ def generate_calendar(matches: list[dict], lang: str, state: dict) -> Calendar:
 
 
 # ---------------------------------------------------------------------------
-# State persistence (per-language)
+# State persistence
 # ---------------------------------------------------------------------------
 
 
 def load_state() -> dict:
     """Load persistent state from disk.
 
-    Returns a dict keyed by language code.
+    Returns a dict with keys 'all' and 'teams'.
+    Migrates legacy format (flat per-language) automatically.
     """
-    if STATE_FILE.exists():
-        with open(STATE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
+    if not STATE_FILE.exists():
+        return {"all": {}, "teams": {}}
+
+    with open(STATE_FILE, "r", encoding="utf-8") as f:
+        state = json.load(f)
+
+    # Migrate legacy format (pre-per-team)
+    if "all" not in state and any(lang in state for lang in LANGUAGES):
+        state = {"all": state, "teams": {}}
+
+    state.setdefault("all", {})
+    state.setdefault("teams", {})
+    return state
 
 
 def save_state(state: dict) -> None:
@@ -285,26 +334,61 @@ def save_state(state: dict) -> None:
 
 
 def main() -> None:
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
     print(f"Fetching data from {DATA_URL} ...")
     data = fetch_data(DATA_URL)
     matches = data.get("matches", [])
-    print(f"Loaded {len(matches)} matches.")
+    print(f"Loaded {len(matches)} total matches.")
 
-    full_state = load_state()
+    teams = extract_teams(matches)
+    print(f"Found {len(teams)} teams.")
 
+    state = load_state()
+
+    # --- Generate "all matches" calendars ---
     for lang in LANGUAGES:
         print(f"Generating {lang}.ics ...")
-        lang_state = full_state.get(lang, {})
+        lang_state = state["all"].get(lang, {})
         cal = generate_calendar(matches, lang, lang_state)
-        full_state[lang] = lang_state
-        output_path = OUTPUT_DIR / f"{lang}.ics"
-        with open(output_path, "wb") as f:
+        state["all"][lang] = lang_state
+        with open(OUTPUT_DIR / f"{lang}.ics", "wb") as f:
             f.write(cal.to_ical())
-        print(f"  Written {output_path}")
 
-    save_state(full_state)
+    # --- Generate per-team calendars ---
+    teams_dir = OUTPUT_DIR / "teams"
+    teams_dir.mkdir(parents=True, exist_ok=True)
+
+    # Clean up old team directories to prevent stale files
+    existing_teams = {d.name for d in teams_dir.iterdir() if d.is_dir()}
+    current_slugs = set(teams.values())
+    for stale in existing_teams - current_slugs:
+        import shutil
+        shutil.rmtree(teams_dir / stale)
+        print(f"  Removed stale directory: {stale}")
+
+    for team_name, team_slug in teams.items():
+        team_matches = filter_matches_for_team(matches, team_name)
+        if not team_matches:
+            continue
+
+        team_dir = teams_dir / team_slug
+        team_dir.mkdir(parents=True, exist_ok=True)
+
+        for lang in LANGUAGES:
+            t = LANGUAGES[lang]
+            cal_name = f"{team_name} — {t['calendar_name']}"
+            cal_desc = f"{t['calendar_desc']} — {team_name} matches only"
+
+            lang_state = state["teams"].setdefault(team_slug, {}).get(lang, {})
+            cal = generate_calendar(
+                team_matches, lang, lang_state,
+                calendar_name=cal_name, calendar_desc=cal_desc
+            )
+            state["teams"].setdefault(team_slug, {})[lang] = lang_state
+
+            with open(team_dir / f"{lang}.ics", "wb") as f:
+                f.write(cal.to_ical())
+
+    save_state(state)
     print("Done.")
 
 
