@@ -26,278 +26,153 @@
 </p>
 
 ---
-
-## 🌍 All Matches Calendars
-
-Want the **entire tournament** in your calendar? Pick your language and copy the link.
+## All Matches
 
 | Language | Subscribe URL | Copy |
 |----------|---------------|------|
-| 🇺🇸 English | `https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/en.ics` | [📋 Link](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/en.ics) |
-| 🇪🇸 Español | `https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/es.ics` | [📋 Link](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/es.ics) |
-| 🇵🇹 Português | `https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/pt.ics` | [📋 Link](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/pt.ics) |
+| 🇺🇸 English | `https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/en.ics` | [📋 Link](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/en.ics) |
+| 🇪🇸 Español | `https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/es.ics` | [📋 Link](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/es.ics) |
+| 🇵🇹 Português | `https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/pt.ics` | [📋 Link](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/pt.ics) |
 
 ---
 
-## 🏅 Team Calendars
-
-Follow **only your nation's matches** — group stage, knockouts, and the final if they go all the way.
+## Team Calendars
 
 <details open markdown="1">
 <summary><b>📂 Expand / Collapse Full Team List</b> &nbsp;<code>(48 teams × 3 languages)</code></summary>
 
-> 🔍 **Tip:** Use `Ctrl+F` (or `Cmd+F`) to quickly find your team.
-
-| Team | 🇺🇸 EN | 🇪🇸 ES | 🇵🇹 PT |
-|:---|:---:|:---:|:---:|
-| 🇩🇿 Algeria | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/algeria/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/algeria/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/algeria/pt.ics) |
-| 🇦🇷 Argentina | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/argentina/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/argentina/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/argentina/pt.ics) |
-| 🇦🇺 Australia | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/australia/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/australia/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/australia/pt.ics) |
-| 🇦🇹 Austria | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/austria/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/austria/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/austria/pt.ics) |
-| 🇧🇪 Belgium | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/belgium/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/belgium/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/belgium/pt.ics) |
-| 🇧🇦 Bosnia & Herzegovina | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/bosnia-herzegovina/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/bosnia-herzegovina/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/bosnia-herzegovina/pt.ics) |
-| 🇧🇷 Brazil | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/brazil/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/brazil/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/brazil/pt.ics) |
-| 🇨🇦 Canada | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/canada/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/canada/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/canada/pt.ics) |
-| 🇨🇻 Cape Verde | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/cape-verde/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/cape-verde/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/cape-verde/pt.ics) |
-| 🇨🇴 Colombia | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/colombia/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/colombia/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/colombia/pt.ics) |
-| 🇭🇷 Croatia | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/croatia/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/croatia/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/croatia/pt.ics) |
-| 🇨🇼 Curaçao | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/curacao/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/curacao/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/curacao/pt.ics) |
-| 🇨🇿 Czech Republic | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/czech-republic/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/czech-republic/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/czech-republic/pt.ics) |
-| 🇨🇩 DR Congo | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/dr-congo/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/dr-congo/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/dr-congo/pt.ics) |
-| 🇪🇨 Ecuador | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/ecuador/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/ecuador/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/ecuador/pt.ics) |
-| 🇪🇬 Egypt | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/egypt/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/egypt/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/egypt/pt.ics) |
-| 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/england/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/england/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/england/pt.ics) |
-| 🇫🇷 France | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/france/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/france/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/france/pt.ics) |
-| 🇩🇪 Germany | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/germany/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/germany/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/germany/pt.ics) |
-| 🇬🇭 Ghana | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/ghana/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/ghana/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/ghana/pt.ics) |
-| 🇭🇹 Haiti | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/haiti/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/haiti/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/haiti/pt.ics) |
-| 🇮🇷 Iran | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/iran/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/iran/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/iran/pt.ics) |
-| 🇮🇶 Iraq | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/iraq/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/iraq/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/iraq/pt.ics) |
-| 🇨🇮 Ivory Coast | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/ivory-coast/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/ivory-coast/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/ivory-coast/pt.ics) |
-| 🇯🇵 Japan | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/japan/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/japan/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/japan/pt.ics) |
-| 🇯🇴 Jordan | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/jordan/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/jordan/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/jordan/pt.ics) |
-| 🇲🇽 Mexico | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/mexico/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/mexico/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/mexico/pt.ics) |
-| 🇲🇦 Morocco | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/morocco/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/morocco/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/morocco/pt.ics) |
-| 🇳🇱 Netherlands | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/netherlands/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/netherlands/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/netherlands/pt.ics) |
-| 🇳🇿 New Zealand | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/new-zealand/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/new-zealand/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/new-zealand/pt.ics) |
-| 🇳🇴 Norway | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/norway/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/norway/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/norway/pt.ics) |
-| 🇵🇦 Panama | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/panama/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/panama/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/panama/pt.ics) |
-| 🇵🇾 Paraguay | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/paraguay/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/paraguay/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/paraguay/pt.ics) |
-| 🇵🇹 Portugal | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/portugal/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/portugal/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/portugal/pt.ics) |
-| 🇶🇦 Qatar | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/qatar/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/qatar/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/qatar/pt.ics) |
-| 🇸🇦 Saudi Arabia | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/saudi-arabia/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/saudi-arabia/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/saudi-arabia/pt.ics) |
-| 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/scotland/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/scotland/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/scotland/pt.ics) |
-| 🇸🇳 Senegal | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/senegal/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/senegal/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/senegal/pt.ics) |
-| 🇿🇦 South Africa | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/south-africa/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/south-africa/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/south-africa/pt.ics) |
-| 🇰🇷 South Korea | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/south-korea/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/south-korea/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/south-korea/pt.ics) |
-| 🇪🇸 Spain | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/spain/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/spain/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/spain/pt.ics) |
-| 🇸🇪 Sweden | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/sweden/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/sweden/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/sweden/pt.ics) |
-| 🇨🇭 Switzerland | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/switzerland/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/switzerland/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/switzerland/pt.ics) |
-| 🇹🇳 Tunisia | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/tunisia/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/tunisia/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/tunisia/pt.ics) |
-| 🇹🇷 Turkey | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/turkey/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/turkey/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/turkey/pt.ics) |
-| 🇺🇸 USA | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/usa/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/usa/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/usa/pt.ics) |
-| 🇺🇾 Uruguay | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/uruguay/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/uruguay/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/uruguay/pt.ics) |
-| 🇺🇿 Uzbekistan | [EN](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/uzbekistan/en.ics) | [ES](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/uzbekistan/es.ics) | [PT](https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/uzbekistan/pt.ics) |
+| Team | EN | ES | PT |
+| --- | --- | --- | --- |
+| Algeria | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/algeria/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/algeria/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/algeria/pt.ics) |
+| Argentina | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/argentina/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/argentina/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/argentina/pt.ics) |
+| Australia | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/australia/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/australia/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/australia/pt.ics) |
+| Austria | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/austria/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/austria/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/austria/pt.ics) |
+| Belgium | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/belgium/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/belgium/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/belgium/pt.ics) |
+| Bosnia & Herzegovina | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/bosnia-herzegovina/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/bosnia-herzegovina/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/bosnia-herzegovina/pt.ics) |
+| Brazil | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/brazil/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/brazil/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/brazil/pt.ics) |
+| Canada | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/canada/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/canada/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/canada/pt.ics) |
+| Cape Verde | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/cape-verde/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/cape-verde/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/cape-verde/pt.ics) |
+| Colombia | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/colombia/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/colombia/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/colombia/pt.ics) |
+| Croatia | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/croatia/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/croatia/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/croatia/pt.ics) |
+| Curaçao | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/curacao/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/curacao/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/curacao/pt.ics) |
+| Czech Republic | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/czech-republic/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/czech-republic/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/czech-republic/pt.ics) |
+| DR Congo | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/dr-congo/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/dr-congo/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/dr-congo/pt.ics) |
+| Ecuador | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/ecuador/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/ecuador/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/ecuador/pt.ics) |
+| Egypt | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/egypt/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/egypt/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/egypt/pt.ics) |
+| England | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/england/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/england/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/england/pt.ics) |
+| France | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/france/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/france/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/france/pt.ics) |
+| Germany | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/germany/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/germany/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/germany/pt.ics) |
+| Ghana | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/ghana/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/ghana/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/ghana/pt.ics) |
+| Haiti | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/haiti/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/haiti/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/haiti/pt.ics) |
+| Iran | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/iran/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/iran/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/iran/pt.ics) |
+| Iraq | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/iraq/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/iraq/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/iraq/pt.ics) |
+| Ivory Coast | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/ivory-coast/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/ivory-coast/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/ivory-coast/pt.ics) |
+| Japan | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/japan/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/japan/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/japan/pt.ics) |
+| Jordan | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/jordan/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/jordan/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/jordan/pt.ics) |
+| Mexico | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/mexico/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/mexico/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/mexico/pt.ics) |
+| Morocco | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/morocco/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/morocco/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/morocco/pt.ics) |
+| Netherlands | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/netherlands/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/netherlands/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/netherlands/pt.ics) |
+| New Zealand | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/new-zealand/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/new-zealand/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/new-zealand/pt.ics) |
+| Norway | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/norway/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/norway/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/norway/pt.ics) |
+| Panama | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/panama/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/panama/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/panama/pt.ics) |
+| Paraguay | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/paraguay/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/paraguay/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/paraguay/pt.ics) |
+| Portugal | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/portugal/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/portugal/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/portugal/pt.ics) |
+| Qatar | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/qatar/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/qatar/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/qatar/pt.ics) |
+| Saudi Arabia | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/saudi-arabia/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/saudi-arabia/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/saudi-arabia/pt.ics) |
+| Scotland | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/scotland/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/scotland/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/scotland/pt.ics) |
+| Senegal | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/senegal/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/senegal/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/senegal/pt.ics) |
+| South Africa | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/south-africa/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/south-africa/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/south-africa/pt.ics) |
+| South Korea | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/south-korea/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/south-korea/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/south-korea/pt.ics) |
+| Spain | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/spain/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/spain/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/spain/pt.ics) |
+| Sweden | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/sweden/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/sweden/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/sweden/pt.ics) |
+| Switzerland | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/switzerland/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/switzerland/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/switzerland/pt.ics) |
+| Tunisia | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/tunisia/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/tunisia/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/tunisia/pt.ics) |
+| Turkey | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/turkey/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/turkey/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/turkey/pt.ics) |
+| USA | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/usa/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/usa/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/usa/pt.ics) |
+| Uruguay | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/uruguay/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/uruguay/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/uruguay/pt.ics) |
+| Uzbekistan | [EN](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/uzbekistan/en.ics) | [ES](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/uzbekistan/es.ics) | [PT](https://cdn.jsdelivr.net/gh/baires/fifa-cal-2026@master/calendars/teams/uzbekistan/pt.ics) |
 
 </details>
 
----
+## Subscribe
 
-## 📱 How to Subscribe
+You only need one `.ics` URL from the tables above.
 
-> **What you need:** Any `.ics` URL from the tables above. Copy it, then follow the steps for your app.
+### Google Calendar
 
-<details>
-<summary><b>Google Calendar</b> (Web / Android)</summary>
+1. Open Google Calendar in a browser.
+2. Next to "Other calendars", click `+`.
+3. Choose `From URL`.
+4. Paste the `.ics` URL.
 
-1. Open [Google Calendar](https://calendar.google.com) in your browser.
-2. In the left sidebar, click the **"+"** next to **"Other calendars"**.
-3. Select **"From URL"**.
-4. Paste your `.ics` subscription link (e.g., `https://raw.githubusercontent.com/baires/fifa-cal-2026/master/calendars/teams/brazil/en.ics`).
-5. Click **"Add calendar"**.
-6. The calendar will appear under "Other calendars" and auto-sync across all your devices.
+### Apple Calendar
 
-</details>
+macOS:
 
-<details>
-<summary><b>Apple Calendar</b> (macOS)</summary>
-
-1. Open the **Calendar** app.
-2. Choose **File → New Calendar Subscription…** (or press `⌥⌘S`).
-3. Paste the `.ics` URL and click **Subscribe**.
-4. Set **Auto-refresh** to your preference (e.g., *Every day*).
-5. Click **OK**.
-
-</details>
-
-<details>
-<summary><b>Apple Calendar</b> (iOS / iPadOS)</summary>
-
-1. Open **Settings → Calendar → Accounts → Add Account → Other**.
-2. Tap **Add Subscribed Calendar**.
-3. Paste the `.ics` URL and tap **Next**.
-4. Tap **Save**.
-5. The calendar will sync automatically via iCloud.
-
-</details>
-
-<details>
-<summary><b>Microsoft Outlook</b> (Desktop)</summary>
-
-1. Click **Add Calendar** in the ribbon.
-2. Select **From Internet**.
+1. Open Calendar.
+2. Choose `File -> New Calendar Subscription`.
 3. Paste the `.ics` URL.
-4. Click **OK** and name the calendar (e.g., *"Brazil - WC 2026"*).
-5. Outlook will refresh the feed based on your account sync settings.
 
-</details>
+iPhone or iPad:
 
-<details>
-<summary><b>Microsoft Outlook</b> (Web / Office 365)</summary>
-
-1. Go to [Outlook Calendar](https://outlook.live.com/calendar).
-2. Click **Add calendar → Subscribe from web**.
+1. Open `Settings -> Calendar -> Accounts -> Add Account -> Other`.
+2. Tap `Add Subscribed Calendar`.
 3. Paste the `.ics` URL.
-4. Enter a name and click **Import**.
 
-</details>
+### Outlook
 
----
+Desktop:
 
-## 🔄 Auto-Update
+1. Choose `Add Calendar`.
+2. Choose `From Internet`.
+3. Paste the `.ics` URL.
 
-These calendars are **living files**. When kickoff times are confirmed, knockout brackets are decided, or results are finalised, the `.ics` files in this repository are updated automatically.
+Web:
 
-| What happens | How it works |
-|-------------|--------------|
-| **Source of truth** | `.ics` files are generated & committed to this repo. |
-| **Your calendar refreshes** | Calendar apps re-fetch the URL on their own schedule (Google: ~every 12–24 hrs; Apple: based on your *Auto-refresh* setting). |
-| **No action needed** | Once subscribed, you automatically receive updates. No need to re-subscribe. |
+1. Open Outlook Calendar.
+2. Choose `Add calendar -> Subscribe from web`.
+3. Paste the `.ics` URL.
 
-> ⚠️ **Note:** GitHub serves raw files with a `text/plain` MIME type. Most modern calendar apps handle this gracefully, but if you experience issues you can route the URL through a CDN (e.g., jsDelivr, raw.githack.com) which sets the correct `text/calendar` headers.
+## Updates
 
----
+- `.ics` files are generated into [`calendars/`](calendars).
+- GitHub Actions refreshes them every day from the source dataset.
+- Calendar apps fetch updates on their own schedule after you subscribe.
+- You do not need to re-import the calendar.
 
-## ⚙️ How It Works
+Each event includes kickoff time, venue, stage label, a 30-minute reminder, and score updates when results are available.
 
-Every day a [GitHub Actions](.github/workflows/update-calendars.yml) workflow:
+## Local Development
 
-1. Fetches the latest match data from [openfootball/worldcup.json](https://github.com/openfootball/worldcup.json) — a public domain (CC0) dataset
-2. Generates `.ics` files for all 3 languages × all 48 teams
-3. Commits any changes back to the repository
-4. Calendar apps pick up the changes on their next sync
-
-### What's Included
-
-- **All 104 matches** — Group stage, Round of 32, Round of 16, Quarter-finals, Semi-finals, Third Place Match, and Final
-- **Per-team calendars** — Each nation's matches only (group stage + any knockouts they reach)
-- **30-minute reminders** — Every event includes a `VALARM` notification before kickoff
-- **Score updates** — Results are added to past matches as the tournament progresses
-- **Schedule changes** — If match times or venues change, your calendar updates automatically
-- **Localized content** — Calendar names, phase names, and labels are translated
-
----
-
-## 📁 Repository Structure
-
-```
-calendars/
-├── en.ics                    # All matches — English
-├── es.ics                    # All matches — Spanish
-├── pt.ics                    # All matches — Portuguese
-└── teams/
-    ├── argentina/
-    │   ├── en.ics
-    │   ├── es.ics
-    │   └── pt.ics
-    ├── brazil/
-    │   ├── en.ics
-    │   ├── es.ics
-    │   └── pt.ics
-    └── ... (48 teams total)
-```
-
----
-
-## 🛠️ Local Development
+Install dependencies:
 
 ```bash
-# Install dependencies
 pip install -r requirements.txt
-
-# Generate all calendars manually
-python scripts/generate.py
-
-# Output:
-#   calendars/{en,es,pt}.ics          (all matches)
-#   calendars/teams/{slug}/{en,es,pt}.ics  (per-team)
 ```
 
----
-
-## 🌐 Contributing Translations
-
-Want to add a new language? It's a single code change — no external services or APIs needed.
-
-### 1. Add your language to `scripts/generate.py`
-
-Open [`scripts/generate.py`](scripts/generate.py) and find the `LANGUAGES` dictionary. Add a new entry using the two-letter language code (e.g. `"fr"`, `"de"`, `"it"`) and translate the following fields:
-
-| Field | Description | Example (French) |
-|-------|-------------|------------------|
-| `calendar_name` | Calendar title shown in your app | `"Coupe du Monde FIFA 2026"` |
-| `calendar_desc` | Short description of the calendar | `"Tous les matchs de la Coupe du Monde FIFA 2026 — États-Unis, Canada & Mexique"` |
-| `phase["Matchday"]` | Label for group stage rounds | `"Journée"` |
-| `phase["Round of 32"]` | Round of 32 label | `"Seizièmes de finale"` |
-| `phase["Round of 16"]` | Round of 16 label | `"Huitièmes de finale"` |
-| `phase["Quarter-final"]` | Quarter-final label | `"Quarts de finale"` |
-| `phase["Semi-final"]` | Semi-final label | `"Demi-finales"` |
-| `phase["Match for third place"]` | Third place match label | `"Match pour la 3ᵉ place"` |
-| `phase["Final"]` | Final label | `"Finale"` |
-| `group` | Label for the group name | `"Groupe"` |
-| `venue` | Label for the stadium | `"Stade"` |
-| `vs` | Versus separator used in event titles | `"vs"` (or `"contre"`) |
-| `result` | Label for match results | `"Résultat"` |
-| `reminder` | 30-minute reminder notification text | `"Le match commence dans 30 minutes"` |
-
-### 2. Test locally
+Generate calendars:
 
 ```bash
 python scripts/generate.py
 ```
 
-This will generate:
-- `calendars/fr.ics` — all matches in your new language
-- `calendars/teams/{slug}/fr.ics` — per-team calendars in your new language
+Output:
 
-Open the `.ics` file in a text editor or import it into your calendar app to verify the translations look correct.
+- `calendars/{en,es,pt}.ics` for the full-tournament calendars
+- `calendars/teams/{slug}/{en,es,pt}.ics` for team calendars
 
-### 3. Submit a Pull Request
+## Adding A Language
 
-1. Fork the repository
-2. Add your language to `scripts/generate.py`
-3. Run `python scripts/generate.py` to generate the new `.ics` files
-4. Commit both the script change **and** the generated `.ics` files
-5. Open a PR with the language name in the title (e.g. *"Add French (fr) translation"*)
+1. Add a new entry to `LANGUAGES` in [`scripts/generate.py`](scripts/generate.py).
+2. Translate `calendar_name`, `calendar_desc`, phase labels, `group`, `venue`, `vs`, `result`, and `reminder`.
+3. Run `python scripts/generate.py`.
+4. Commit the script change and the generated `.ics` files.
+5. Open a pull request.
 
-We will review the PR, merge it, and the daily auto-update will start including your language going forward.
+## License
 
-> 💡 **Team names** (e.g., "Brazil", "Germany") are kept in English as they appear in the source data. Only labels, phase names, and descriptions are translated.
+This project is released under [CC0 1.0 Universal](LICENSE).
 
----
+Match data comes from [`openfootball/worldcup.json`](https://github.com/openfootball/worldcup.json), also published under CC0.
 
-## 📜 License
-
-This project is released into the public domain under [CC0 1.0 Universal](LICENSE).
-
-Match data is sourced from [openfootball/worldcup.json](https://github.com/openfootball/worldcup.json), a public domain (CC0) dataset maintained by the openfootball community.
-
-*FIFA World Cup™ is a trademark of FIFA. This is an unofficial fan project.*
-
----
-
-<p align="center">
-  Made with ❤️ for football fans everywhere.
-  <br>
-  🏆 <em>See you in North America, 2026!</em> 🏆
-</p>
+FIFA World Cup is a trademark of FIFA. This repository is an unofficial fan project.
