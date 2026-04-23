@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <a href="#-all-matches-calendars">🌍 All Matches</a> •
-  <a href="#-team-calendars">🏅 Your Team</a> •
-  <a href="#-how-to-subscribe">📱 How to Subscribe</a> •
-  <a href="#-auto-update">🔄 Auto-Update</a>
+  <a href="#all-matches-calendars">🌍 All Matches</a> •
+  <a href="#team-calendars">🏅 Your Team</a> •
+  <a href="#how-to-subscribe">📱 How to Subscribe</a> •
+  <a href="#auto-update">🔄 Auto-Update</a>
 </p>
 
 ---
