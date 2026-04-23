@@ -232,6 +232,57 @@ python scripts/generate.py
 
 ---
 
+## 🌐 Contributing Translations
+
+Want to add a new language? It's a single code change — no external services or APIs needed.
+
+### 1. Add your language to `scripts/generate.py`
+
+Open [`scripts/generate.py`](scripts/generate.py) and find the `LANGUAGES` dictionary. Add a new entry using the two-letter language code (e.g. `"fr"`, `"de"`, `"it"`) and translate the following fields:
+
+| Field | Description | Example (French) |
+|-------|-------------|------------------|
+| `calendar_name` | Calendar title shown in your app | `"Coupe du Monde FIFA 2026"` |
+| `calendar_desc` | Short description of the calendar | `"Tous les matchs de la Coupe du Monde FIFA 2026 — États-Unis, Canada & Mexique"` |
+| `phase["Matchday"]` | Label for group stage rounds | `"Journée"` |
+| `phase["Round of 32"]` | Round of 32 label | `"Seizièmes de finale"` |
+| `phase["Round of 16"]` | Round of 16 label | `"Huitièmes de finale"` |
+| `phase["Quarter-final"]` | Quarter-final label | `"Quarts de finale"` |
+| `phase["Semi-final"]` | Semi-final label | `"Demi-finales"` |
+| `phase["Match for third place"]` | Third place match label | `"Match pour la 3ᵉ place"` |
+| `phase["Final"]` | Final label | `"Finale"` |
+| `group` | Label for the group name | `"Groupe"` |
+| `venue` | Label for the stadium | `"Stade"` |
+| `vs` | Versus separator used in event titles | `"vs"` (or `"contre"`) |
+| `result` | Label for match results | `"Résultat"` |
+| `reminder` | 30-minute reminder notification text | `"Le match commence dans 30 minutes"` |
+
+### 2. Test locally
+
+```bash
+python scripts/generate.py
+```
+
+This will generate:
+- `calendars/fr.ics` — all matches in your new language
+- `calendars/teams/{slug}/fr.ics` — per-team calendars in your new language
+
+Open the `.ics` file in a text editor or import it into your calendar app to verify the translations look correct.
+
+### 3. Submit a Pull Request
+
+1. Fork the repository
+2. Add your language to `scripts/generate.py`
+3. Run `python scripts/generate.py` to generate the new `.ics` files
+4. Commit both the script change **and** the generated `.ics` files
+5. Open a PR with the language name in the title (e.g. *"Add French (fr) translation"*)
+
+We will review the PR, merge it, and the daily auto-update will start including your language going forward.
+
+> 💡 **Team names** (e.g., "Brazil", "Germany") are kept in English as they appear in the source data. Only labels, phase names, and descriptions are translated.
+
+---
+
 ## 📜 License
 
 This project is released into the public domain under [CC0 1.0 Universal](LICENSE).
