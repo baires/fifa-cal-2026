@@ -8,12 +8,12 @@ X-WR-CALDESC:Tous les matches de la Coupe du Monde FIFA 2026 — États-Un
 X-WR-CALNAME:Czech Republic — Coupe du Monde FIFA 2026
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-SUMMARY:South Korea vs Czech Republic
+SUMMARY:🇰🇷 Corée du Sud 2-1 🇨🇿 République tchèque
 DTSTART:20260612T020000Z
 DTEND:20260612T040000Z
-DTSTAMP:20260616T061144Z
+DTSTAMP:20260616T234107Z
 UID:fifa-wc-2026-dfd8df44c1fb@worldcup-calendar
-SEQUENCE:1
+SEQUENCE:2
 CATEGORIES:FIFA World Cup 2026,Football
 DESCRIPTION:Jour de match 1\nGroupe: Group A\nStade: Guadalajara (Zapopan)
  \nRésultat: 2-1
@@ -27,12 +27,12 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Czech Republic vs South Africa
+SUMMARY:🇨🇿 République tchèque vs 🇿🇦 Afrique du Sud
 DTSTART:20260618T160000Z
 DTEND:20260618T180000Z
-DTSTAMP:20260616T061144Z
+DTSTAMP:20260616T234107Z
 UID:fifa-wc-2026-e8aa08edb6ad@worldcup-calendar
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:FIFA World Cup 2026,Football
 DESCRIPTION:Jour de match 8\nGroupe: Group A\nStade: Atlanta
 LOCATION:Atlanta
@@ -45,12 +45,12 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Czech Republic vs Mexico
+SUMMARY:🇨🇿 République tchèque vs 🇲🇽 Mexique
 DTSTART:20260625T010000Z
 DTEND:20260625T030000Z
-DTSTAMP:20260616T061144Z
+DTSTAMP:20260616T234107Z
 UID:fifa-wc-2026-a39ddca16285@worldcup-calendar
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:FIFA World Cup 2026,Football
 DESCRIPTION:Jour de match 14\nGroupe: Group A\nStade: Mexico City
 LOCATION:Mexico City
