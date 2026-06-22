@@ -513,7 +513,9 @@ def event_content_hash(
 # ---------------------------------------------------------------------------
 
 
-def create_event(match: dict, lang: str, state: dict) -> Event:
+def create_event(
+    match: dict, lang: str, state: dict, generated_at: datetime
+) -> Event:
     """Create an icalendar Event for a single match."""
     t = LANGUAGES[lang]
 
@@ -552,13 +554,28 @@ def create_event(match: dict, lang: str, state: dict) -> Event:
     prev = state.get(uid, {})
     if prev.get("hash") != content_hash:
         sequence = prev.get("sequence", -1) + 1
-        state[uid] = {"sequence": sequence, "hash": content_hash, "score": score}
+        last_modified = generated_at
+        state[uid] = {
+            "sequence": sequence,
+            "hash": content_hash,
+            "score": score,
+            "last_modified": last_modified.isoformat(),
+        }
     else:
         sequence = prev.get("sequence", 0)
+        last_modified_raw = prev.get("last_modified")
+        if last_modified_raw:
+            last_modified = datetime.fromisoformat(last_modified_raw)
+        else:
+            # One-time migration for state created before timestamps were persisted.
+            last_modified = generated_at
+            prev["last_modified"] = last_modified.isoformat()
+            state[uid] = prev
 
     event = Event()
     event.add("uid", uid)
-    event.add("dtstamp", datetime.now(timezone.utc))
+    event.add("dtstamp", last_modified)
+    event.add("last-modified", last_modified)
     event.add("dtstart", dt_start)
     event.add("dtend", dt_end)
     event.add("summary", summary)
@@ -582,6 +599,7 @@ def generate_calendar(
     matches: list[dict],
     lang: str,
     state: dict,
+    generated_at: datetime,
     calendar_name: str | None = None,
     calendar_desc: str | None = None,
 ) -> Calendar:
@@ -598,7 +616,7 @@ def generate_calendar(
     cal.add("x-wr-timezone", "UTC")
 
     for match in matches:
-        event = create_event(match, lang, state)
+        event = create_event(match, lang, state, generated_at)
         cal.add_component(event)
 
     return cal
@@ -643,6 +661,7 @@ def save_state(state: dict) -> None:
 
 
 def main() -> None:
+    generated_at = datetime.now(timezone.utc).replace(microsecond=0)
     print(f"Fetching data from {DATA_URL} ...")
     data = fetch_data(DATA_URL)
     matches = data.get("matches", [])
@@ -657,7 +676,7 @@ def main() -> None:
     for lang in LANGUAGES:
         print(f"Generating {lang}.ics ...")
         lang_state = state["all"].get(lang, {})
-        cal = generate_calendar(matches, lang, lang_state)
+        cal = generate_calendar(matches, lang, lang_state, generated_at)
         state["all"][lang] = lang_state
         with open(OUTPUT_DIR / f"{lang}.ics", "wb") as f:
             f.write(cal.to_ical())
@@ -689,7 +708,7 @@ def main() -> None:
 
             lang_state = state["teams"].setdefault(team_slug, {}).get(lang, {})
             cal = generate_calendar(
-                team_matches, lang, lang_state,
+                team_matches, lang, lang_state, generated_at,
                 calendar_name=cal_name, calendar_desc=cal_desc
             )
             state["teams"].setdefault(team_slug, {})[lang] = lang_state
