@@ -2,8 +2,8 @@ name: Update World Cup Calendars
 
 on:
   schedule:
-    # Daily at 04:17 UTC (off-peak to avoid GitHub Actions queuing delays)
-    - cron: '17 4 * * *'
+    # Poll throughout the tournament so completed-match results appear promptly.
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -19,6 +19,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout repository
+        if: ${{ env.ACT != 'true' }}
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -29,10 +30,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Test calendar update behavior
+        run: python -m unittest discover -s tests -v
+
       - name: Generate calendar files
         run: python scripts/generate.py
 
       - name: Commit and push changes
+        if: ${{ env.ACT != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
