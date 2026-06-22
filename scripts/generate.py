@@ -30,6 +30,57 @@ LANGUAGES = {
             "All matches of the FIFA World Cup 2026 — "
             "United States, Canada & Mexico"
         ),
+        "countries": {
+            "AR": "Argentina",
+            "AT": "Austria",
+            "AU": "Australia",
+            "BA": "Bosnia & Herzegovina",
+            "BE": "Belgium",
+            "BR": "Brazil",
+            "CA": "Canada",
+            "CD": "DR Congo",
+            "CH": "Switzerland",
+            "CI": "Ivory Coast",
+            "CO": "Colombia",
+            "CV": "Cape Verde",
+            "CW": "Curaçao",
+            "CZ": "Czech Republic",
+            "DE": "Germany",
+            "DZ": "Algeria",
+            "EC": "Ecuador",
+            "EG": "Egypt",
+            "ENG": "England",
+            "ES": "Spain",
+            "FR": "France",
+            "GB": "United Kingdom",
+            "GH": "Ghana",
+            "HR": "Croatia",
+            "HT": "Haiti",
+            "IQ": "Iraq",
+            "IR": "Iran",
+            "JO": "Jordan",
+            "JP": "Japan",
+            "KR": "South Korea",
+            "MA": "Morocco",
+            "MX": "Mexico",
+            "NL": "Netherlands",
+            "NO": "Norway",
+            "NZ": "New Zealand",
+            "PA": "Panama",
+            "PT": "Portugal",
+            "PY": "Paraguay",
+            "QA": "Qatar",
+            "SA": "Saudi Arabia",
+            "SCT": "Scotland",
+            "SE": "Sweden",
+            "SN": "Senegal",
+            "TR": "Turkey",
+            "US": "USA",
+            "UY": "Uruguay",
+            "UZ": "Uzbekistan",
+            "WLS": "Wales",
+            "ZA": "South Africa",
+        },
         "phase": {
             "Matchday": "Matchday",
             "Round of 32": "Round of 32",
@@ -51,6 +102,57 @@ LANGUAGES = {
             "Todos los partidos de la Copa Mundial de la FIFA 2026 — "
             "Estados Unidos, Canadá y México"
         ),
+        "countries": {
+            "AR": "Argentina",
+            "AT": "Austria",
+            "AU": "Australia",
+            "BA": "Bosnia y Herzegovina",
+            "BE": "Bélgica",
+            "BR": "Brasil",
+            "CA": "Canadá",
+            "CD": "RD Congo",
+            "CH": "Suiza",
+            "CI": "Costa de Marfil",
+            "CO": "Colombia",
+            "CV": "Cabo Verde",
+            "CW": "Curazao",
+            "CZ": "República Checa",
+            "DE": "Alemania",
+            "DZ": "Argelia",
+            "EC": "Ecuador",
+            "EG": "Egipto",
+            "ENG": "Inglaterra",
+            "ES": "España",
+            "FR": "Francia",
+            "GB": "Reino Unido",
+            "GH": "Ghana",
+            "HR": "Croacia",
+            "HT": "Haití",
+            "IQ": "Irak",
+            "IR": "Irán",
+            "JO": "Jordania",
+            "JP": "Japón",
+            "KR": "Corea del Sur",
+            "MA": "Marruecos",
+            "MX": "México",
+            "NL": "Países Bajos",
+            "NO": "Noruega",
+            "NZ": "Nueva Zelanda",
+            "PA": "Panamá",
+            "PT": "Portugal",
+            "PY": "Paraguay",
+            "QA": "Catar",
+            "SA": "Arabia Saudita",
+            "SCT": "Escocia",
+            "SE": "Suecia",
+            "SN": "Senegal",
+            "TR": "Turquía",
+            "US": "Estados Unidos",
+            "UY": "Uruguay",
+            "UZ": "Uzbekistán",
+            "WLS": "Gales",
+            "ZA": "Sudáfrica",
+        },
         "phase": {
             "Matchday": "Jornada",
             "Round of 32": "Dieciseisavos de Final",
@@ -72,6 +174,57 @@ LANGUAGES = {
             "Todas as partidas da Copa do Mundo FIFA 2026 — "
             "Estados Unidos, Canadá e México"
         ),
+        "countries": {
+            "AR": "Argentina",
+            "AT": "Áustria",
+            "AU": "Austrália",
+            "BA": "Bósnia e Herzegovina",
+            "BE": "Bélgica",
+            "BR": "Brasil",
+            "CA": "Canadá",
+            "CD": "RD Congo",
+            "CH": "Suíça",
+            "CI": "Costa do Marfim",
+            "CO": "Colômbia",
+            "CV": "Cabo Verde",
+            "CW": "Curaçao",
+            "CZ": "República Tcheca",
+            "DE": "Alemanha",
+            "DZ": "Argélia",
+            "EC": "Equador",
+            "EG": "Egito",
+            "ENG": "Inglaterra",
+            "ES": "Espanha",
+            "FR": "França",
+            "GB": "Reino Unido",
+            "GH": "Gana",
+            "HR": "Croácia",
+            "HT": "Haiti",
+            "IQ": "Iraque",
+            "IR": "Irã",
+            "JO": "Jordânia",
+            "JP": "Japão",
+            "KR": "Coreia do Sul",
+            "MA": "Marrocos",
+            "MX": "México",
+            "NL": "Países Baixos",
+            "NO": "Noruega",
+            "NZ": "Nova Zelândia",
+            "PA": "Panamá",
+            "PT": "Portugal",
+            "PY": "Paraguai",
+            "QA": "Catar",
+            "SA": "Arábia Saudita",
+            "SCT": "Escócia",
+            "SE": "Suécia",
+            "SN": "Senegal",
+            "TR": "Turquia",
+            "US": "Estados Unidos",
+            "UY": "Uruguai",
+            "UZ": "Uzbequistão",
+            "WLS": "País de Gales",
+            "ZA": "África do Sul",
+        },
         "phase": {
             "Matchday": "Rodada",
             "Round of 32": "Dezesseis-avos de Final",
@@ -93,6 +246,57 @@ LANGUAGES = {
             "Tous les matches de la Coupe du Monde FIFA 2026 — "
             "États-Unis, Canada et Mexique"
         ),
+        "countries": {
+            "AR": "Argentine",
+            "AT": "Autriche",
+            "AU": "Australie",
+            "BA": "Bosnie-Herzégovine",
+            "BE": "Belgique",
+            "BR": "Brésil",
+            "CA": "Canada",
+            "CD": "RD Congo",
+            "CH": "Suisse",
+            "CI": "Côte d'Ivoire",
+            "CO": "Colombie",
+            "CV": "Cap-Vert",
+            "CW": "Curaçao",
+            "CZ": "République tchèque",
+            "DE": "Allemagne",
+            "DZ": "Algérie",
+            "EC": "Équateur",
+            "EG": "Égypte",
+            "ENG": "Angleterre",
+            "ES": "Espagne",
+            "FR": "France",
+            "GB": "Royaume-Uni",
+            "GH": "Ghana",
+            "HR": "Croatie",
+            "HT": "Haïti",
+            "IQ": "Irak",
+            "IR": "Iran",
+            "JO": "Jordanie",
+            "JP": "Japon",
+            "KR": "Corée du Sud",
+            "MA": "Maroc",
+            "MX": "Mexique",
+            "NL": "Pays-Bas",
+            "NO": "Norvège",
+            "NZ": "Nouvelle-Zélande",
+            "PA": "Panama",
+            "PT": "Portugal",
+            "PY": "Paraguay",
+            "QA": "Qatar",
+            "SA": "Arabie saoudite",
+            "SCT": "Écosse",
+            "SE": "Suède",
+            "SN": "Sénégal",
+            "TR": "Turquie",
+            "US": "États-Unis",
+            "UY": "Uruguay",
+            "UZ": "Ouzbékistan",
+            "WLS": "Pays de Galles",
+            "ZA": "Afrique du Sud",
+        },
         "phase": {
             "Matchday": "Jour de match",
             "Round of 32": "1/16ème de finale",
@@ -108,6 +312,58 @@ LANGUAGES = {
         "result": "Résultat",
         "reminder": "Match commence dans 30 minutes",
     },
+}
+
+COUNTRY_CODES = {
+    "Algeria": "DZ",
+    "Argentina": "AR",
+    "Australia": "AU",
+    "Austria": "AT",
+    "Belgium": "BE",
+    "Bosnia & Herzegovina": "BA",
+    "Brazil": "BR",
+    "Canada": "CA",
+    "Cape Verde": "CV",
+    "Colombia": "CO",
+    "Croatia": "HR",
+    "Curaçao": "CW",
+    "Czech Republic": "CZ",
+    "DR Congo": "CD",
+    "Ecuador": "EC",
+    "Egypt": "EG",
+    "England": "ENG",
+    "France": "FR",
+    "Germany": "DE",
+    "Ghana": "GH",
+    "Haiti": "HT",
+    "Iran": "IR",
+    "Iraq": "IQ",
+    "Ivory Coast": "CI",
+    "Japan": "JP",
+    "Jordan": "JO",
+    "Mexico": "MX",
+    "Morocco": "MA",
+    "Netherlands": "NL",
+    "New Zealand": "NZ",
+    "Norway": "NO",
+    "Panama": "PA",
+    "Paraguay": "PY",
+    "Portugal": "PT",
+    "Qatar": "QA",
+    "Saudi Arabia": "SA",
+    "Scotland": "SCT",
+    "Senegal": "SN",
+    "South Africa": "ZA",
+    "South Korea": "KR",
+    "Spain": "ES",
+    "Sweden": "SE",
+    "Switzerland": "CH",
+    "Tunisia": "TN",
+    "Turkey": "TR",
+    "USA": "US",
+    "Uruguay": "UY",
+    "Uzbekistan": "UZ",
+    "Wales": "WLS",
 }
 
 # ---------------------------------------------------------------------------
@@ -191,6 +447,33 @@ def localize_phase(phase_key: str, lang: str) -> str:
         return f"{t['Matchday']} {num}"
     return t.get(phase_key, phase_key)
 
+def localize_team(team: str, lang: str) -> str:
+    """Translate a team name using its country code."""
+    if team not in COUNTRY_CODES:
+        return team
+
+    code = COUNTRY_CODES[team]
+    name = LANGUAGES[lang]["countries"].get(code, team)
+    flag = country_code_to_flag(code)
+    return f"{flag} {name}"
+
+def country_code_to_flag(country_code: str) -> str:
+    """Convert a 2-letter country code into a Unicode flag emoji."""
+    country_code = country_code.upper()
+
+    special = {
+        "SCT": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "ENG": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "WLS": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    }
+
+    if country_code in special:
+        return special[country_code]
+
+    if len(country_code) != 2 or not country_code.isalpha():
+        raise ValueError("Country code must be two letters")
+
+    return ''.join(chr(ord(char) + 127397) for char in country_code)
 
 def format_score(match: dict) -> str | None:
     """Extract full-time score if available."""
@@ -239,14 +522,19 @@ def create_event(match: dict, lang: str, state: dict) -> Event:
     dt_end = dt_start + MATCH_DURATION
 
     team1 = match.get("team1", "TBD")
+    team1 = localize_team(team1, lang)
     team2 = match.get("team2", "TBD")
+    team2 = localize_team(team2, lang)
     phase_key = match.get("round", "")
     phase_localized = localize_phase(phase_key, lang)
     group = match.get("group")
     ground = match.get("ground", "TBD")
     score = format_score(match)
 
-    summary = f"{team1} {t['vs']} {team2}"
+    if score:
+        summary = f"{team1} {score} {team2}"
+    else:
+        summary = f"{team1} {t['vs']} {team2}"
 
     desc_lines = [phase_localized]
     if group:
