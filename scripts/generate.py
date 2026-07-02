@@ -18,6 +18,7 @@ DATA_URL = "https://raw.githubusercontent.com/openfootball/worldcup.json/master/
 STATE_FILE = Path("data/state.json")
 OUTPUT_DIR = Path("calendars")
 MATCH_DURATION = timedelta(hours=2)
+CALENDAR_REFRESH_INTERVAL = timedelta(minutes=30)
 UID_DOMAIN = "worldcup-calendar"
 
 # ---------------------------------------------------------------------------
@@ -614,6 +615,10 @@ def generate_calendar(
     cal.add("x-wr-calname", calendar_name or t["calendar_name"])
     cal.add("x-wr-caldesc", calendar_desc or t["calendar_desc"])
     cal.add("x-wr-timezone", "UTC")
+    # Hint subscription clients to refresh often enough for knockout placeholders
+    # and scores to be replaced promptly when the source data changes.
+    cal.add("refresh-interval", CALENDAR_REFRESH_INTERVAL, parameters={"VALUE": "DURATION"})
+    cal.add("x-published-ttl", vText("PT30M"))
 
     for match in matches:
         event = create_event(match, lang, state, generated_at)
