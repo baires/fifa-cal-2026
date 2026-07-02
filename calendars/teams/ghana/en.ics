@@ -6,6 +6,8 @@ METHOD:PUBLISH
 X-WR-CALDESC:All matches of the FIFA World Cup 2026 — United States\, Ca
  nada & Mexico — Ghana matches only
 X-WR-CALNAME:Ghana — FIFA World Cup 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 SUMMARY:🇬🇭 Ghana 1-0 🇵🇦 Panama

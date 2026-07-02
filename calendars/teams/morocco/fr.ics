@@ -6,6 +6,8 @@ METHOD:PUBLISH
 X-WR-CALDESC:Tous les matches de la Coupe du Monde FIFA 2026 — États-Un
  is\, Canada et Mexique — Morocco matches only
 X-WR-CALNAME:Morocco — Coupe du Monde FIFA 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 SUMMARY:🇧🇷 Brésil 1-1 🇲🇦 Maroc

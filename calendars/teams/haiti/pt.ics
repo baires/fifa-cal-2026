@@ -6,6 +6,8 @@ METHOD:PUBLISH
 X-WR-CALDESC:Todas as partidas da Copa do Mundo FIFA 2026 — Estados Unid
  os\, Canadá e México — Haiti matches only
 X-WR-CALNAME:Haiti — Copa do Mundo FIFA 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 SUMMARY:🇭🇹 Haiti 0-1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escócia

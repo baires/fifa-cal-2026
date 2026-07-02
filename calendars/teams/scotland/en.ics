@@ -6,6 +6,8 @@ METHOD:PUBLISH
 X-WR-CALDESC:All matches of the FIFA World Cup 2026 — United States\, Ca
  nada & Mexico — Scotland matches only
 X-WR-CALNAME:Scotland — FIFA World Cup 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 SUMMARY:🇭🇹 Haiti 0-1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland

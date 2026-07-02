@@ -6,6 +6,8 @@ METHOD:PUBLISH
 X-WR-CALDESC:Todas as partidas da Copa do Mundo FIFA 2026 — Estados Unid
  os\, Canadá e México — Brazil matches only
 X-WR-CALNAME:Brazil — Copa do Mundo FIFA 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 SUMMARY:🇧🇷 Brasil 1-1 🇲🇦 Marrocos

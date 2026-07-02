@@ -6,6 +6,8 @@ METHOD:PUBLISH
 X-WR-CALDESC:Todos los partidos de la Copa Mundial de la FIFA 2026 — Est
  ados Unidos\, Canadá y México — Paraguay matches only
 X-WR-CALNAME:Paraguay — Copa Mundial de la FIFA 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 SUMMARY:🇺🇸 Estados Unidos 4-1 🇵🇾 Paraguay
