@@ -588,10 +588,10 @@
         "last_modified": "2026-06-22T04:00:15+00:00"
       },
       "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
-        "sequence": 0,
-        "hash": "3d931d7cac567ec96914e2b86e1449a1c0180fc931dc8f2920357a6ea28150fa",
+        "sequence": 1,
+        "hash": "b2f1dbe51e3de6a4d9b801377132028b35632edaf33860d21e079058654cb573",
         "score": null,
-        "last_modified": "2026-06-22T04:00:15+00:00"
+        "last_modified": "2026-07-06T12:56:51+00:00"
       },
       "fifa-wc-2026-dc9278a6bd00@worldcup-calendar": {
         "sequence": 0,
@@ -1224,10 +1224,10 @@
         "last_modified": "2026-06-22T04:00:15+00:00"
       },
       "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
-        "sequence": 0,
-        "hash": "024b1cd6df07f5c12e440560c20f816002f344dbb364da575469976d68402476",
+        "sequence": 1,
+        "hash": "421069b83847519f12e78e04feaad459a751e0fb1813b715688ddcb6c76cca3a",
         "score": null,
-        "last_modified": "2026-06-22T04:00:15+00:00"
+        "last_modified": "2026-07-06T12:56:51+00:00"
       },
       "fifa-wc-2026-dc9278a6bd00@worldcup-calendar": {
         "sequence": 0,
@@ -1860,10 +1860,10 @@
         "last_modified": "2026-06-22T04:00:15+00:00"
       },
       "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
-        "sequence": 0,
-        "hash": "e1dbd7ba145485ac1f270e4d8bc09d82e35dc0d10f247ba790b112694cfb1980",
+        "sequence": 1,
+        "hash": "dd47ea18bd918d64114bdd56e77d9d21f76967708dddb63932e1b8eaf044eda0",
         "score": null,
-        "last_modified": "2026-06-22T04:00:15+00:00"
+        "last_modified": "2026-07-06T12:56:51+00:00"
       },
       "fifa-wc-2026-dc9278a6bd00@worldcup-calendar": {
         "sequence": 0,
@@ -2498,10 +2498,10 @@
         "last_modified": "2026-06-22T04:00:15+00:00"
       },
       "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
-        "sequence": 0,
-        "hash": "60b4fe89f4a8a1cb8af84c70e5e7d90b3b4115a427a56510f4c3651c09ebc8bd",
+        "sequence": 1,
+        "hash": "ea3032cb99cb74ff67cccf10e5099717f3b61dc4df5f586ef7c9c650924d4ef9",
         "score": null,
-        "last_modified": "2026-06-22T04:00:15+00:00"
+        "last_modified": "2026-07-06T12:56:51+00:00"
       },
       "fifa-wc-2026-dc9278a6bd00@worldcup-calendar": {
         "sequence": 0,
@@ -4374,6 +4374,12 @@
           "hash": "22669ab70ed40d76f59e46c0f3dd0f8b8af44512957808036932f885710e348d",
           "score": "2-3",
           "last_modified": "2026-07-06T04:35:43+00:00"
+        },
+        "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
+          "sequence": 0,
+          "hash": "b2f1dbe51e3de6a4d9b801377132028b35632edaf33860d21e079058654cb573",
+          "score": null,
+          "last_modified": "2026-07-06T12:56:51+00:00"
         }
       },
       "es": {
@@ -4406,6 +4412,12 @@
           "hash": "552f3c3965f23a99a7c3dd533659e75d93cda67572343de2406c00127c72d29f",
           "score": "2-3",
           "last_modified": "2026-07-06T04:35:43+00:00"
+        },
+        "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
+          "sequence": 0,
+          "hash": "421069b83847519f12e78e04feaad459a751e0fb1813b715688ddcb6c76cca3a",
+          "score": null,
+          "last_modified": "2026-07-06T12:56:51+00:00"
         }
       },
       "pt": {
@@ -4438,6 +4450,12 @@
           "hash": "b65ba6e99df69d2fcc9fb54d3699a6a7359a6af1242c905f18cd2e5eaebaaf22",
           "score": "2-3",
           "last_modified": "2026-07-06T04:35:43+00:00"
+        },
+        "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
+          "sequence": 0,
+          "hash": "dd47ea18bd918d64114bdd56e77d9d21f76967708dddb63932e1b8eaf044eda0",
+          "score": null,
+          "last_modified": "2026-07-06T12:56:51+00:00"
         }
       },
       "fr": {
@@ -4470,6 +4488,12 @@
           "hash": "8701d37a0b27b45de03ba6d2ab81cdfdaefb4e3b5d9d0457799ed40c133c91fd",
           "score": "2-3",
           "last_modified": "2026-07-06T04:35:43+00:00"
+        },
+        "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
+          "sequence": 0,
+          "hash": "ea3032cb99cb74ff67cccf10e5099717f3b61dc4df5f586ef7c9c650924d4ef9",
+          "score": null,
+          "last_modified": "2026-07-06T12:56:51+00:00"
         }
       }
     },
@@ -5897,6 +5921,12 @@
           "hash": "94b0fe8a4cca029fff03b4fc99f26e66f0b7d180796540f572647bde7bcf9aaf",
           "score": "1-2",
           "last_modified": "2026-07-05T22:36:37+00:00"
+        },
+        "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
+          "sequence": 0,
+          "hash": "b2f1dbe51e3de6a4d9b801377132028b35632edaf33860d21e079058654cb573",
+          "score": null,
+          "last_modified": "2026-07-06T12:56:51+00:00"
         }
       },
       "es": {
@@ -5929,6 +5959,12 @@
           "hash": "c78107ebffb07652ae9f0ba41f1ffba629f00df2f12a3fc51dbdbb8bf1c7e6c6",
           "score": "1-2",
           "last_modified": "2026-07-05T22:36:37+00:00"
+        },
+        "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
+          "sequence": 0,
+          "hash": "421069b83847519f12e78e04feaad459a751e0fb1813b715688ddcb6c76cca3a",
+          "score": null,
+          "last_modified": "2026-07-06T12:56:51+00:00"
         }
       },
       "pt": {
@@ -5961,6 +5997,12 @@
           "hash": "764c8893921a22bb5588d79480eb98378250b2d9aa872b63a344d2fca6d108a8",
           "score": "1-2",
           "last_modified": "2026-07-05T22:36:37+00:00"
+        },
+        "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
+          "sequence": 0,
+          "hash": "dd47ea18bd918d64114bdd56e77d9d21f76967708dddb63932e1b8eaf044eda0",
+          "score": null,
+          "last_modified": "2026-07-06T12:56:51+00:00"
         }
       },
       "fr": {
@@ -5993,6 +6035,12 @@
           "hash": "8c15ca1b9c077039a6f4a547172f4d2dd1396a6184ca0b7135c844237c77659a",
           "score": "1-2",
           "last_modified": "2026-07-05T22:36:37+00:00"
+        },
+        "fifa-wc-2026-fbe7a024f3e0@worldcup-calendar": {
+          "sequence": 0,
+          "hash": "ea3032cb99cb74ff67cccf10e5099717f3b61dc4df5f586ef7c9c650924d4ef9",
+          "score": null,
+          "last_modified": "2026-07-06T12:56:51+00:00"
         }
       }
     },
